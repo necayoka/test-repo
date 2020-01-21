@@ -6,6 +6,8 @@ public class KalkulatorDemo {
 
 	public static void main(String[] args) {
 		
+		System.out.println("KALKULATOR");
+		
 		Scanner in = new Scanner(System.in);
 		
 		System.out.print("Unesi prvi broj: ");
