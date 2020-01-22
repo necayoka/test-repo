@@ -21,8 +21,6 @@ public class KalkulatorDemo {
 		
 		in.close();
 		
-		System.out.println("Operacija izvrsena");
-		
 	}
 	
 }
