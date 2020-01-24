@@ -34,9 +34,7 @@ public class KalkulatorDemo {
 		in.close();
 		
 		System.out.println("Operacija zavrsena");
-		System.out.println("Lep je dan danas kao da je prolece");
-		System.out.println("Nista, sve ok sve radi xD");
-		System.out.println("Valjda ce sada raditi");
+		
 	}
 	
 }
