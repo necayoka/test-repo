@@ -11,7 +11,8 @@ public class KalkulatorDemo {
 		Scanner in = new Scanner(System.in);
 		String operacija = in.nextLine();
 		
-		if(operacija.toLowerCase() == "s") {
+		if(operacija.toLowerCase().contains("s")) {
+			
 			System.out.print("Unesi prvi broj: ");
 			int broj1 = in.nextInt();
 			
@@ -20,7 +21,9 @@ public class KalkulatorDemo {
 			
 			int rezultat = broj1 + broj2;
 			System.out.println("Rezultat je: " + rezultat);
+			
 		} else {
+			
 			System.out.print("Unesi prvi broj: ");
 			int broj1 = in.nextInt();
 			
@@ -34,9 +37,8 @@ public class KalkulatorDemo {
 		in.close();
 		
 		System.out.println("Operacija zavrsena");
-		System.out.println("Lep je dan danas kao da je prolece");
-		System.out.println("Nista, sve ok sve radi xD");
-		System.out.println("Valjda ce sada raditi");
+		//konacno
+		
 	}
 	
 }
